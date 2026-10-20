@@ -48,10 +48,14 @@ body {
 
 table {
   padding: 30px;
+  margin: 30px auto;
+
 }
 
 .table1 {
+  
   background-color: burlywood;
+  
 }
 
 .table2 td {
