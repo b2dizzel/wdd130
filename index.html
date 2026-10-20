@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <link rel="stylesheet" href="homeStyle.css">
+</head>
+
+<body>
+    <div id="content">
+
+        <header>
+            <a id="logo-link" href="index.html">
+                <img class="logo" 
+                     src="img/inverteedLogo.png"
+                     alt="X-Zero">
+            </a>
+            <!-- w3school navbar dropdown -->
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="wwr/index.html">index</a>
+                <a href="wwr/sitePlanRafting.html">sitePlanRafting</a>
+                <div class="dropdown">
+                    <button class="dropbtn">prodgects
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="Ice/oaks.html">Ice</a>
+                        <a href="wwr/index.html">index (wwr) 2</a>
+                        <a href="#">error</a>
+                    </div>
+                </div>
+                <a href="#about">About me</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <!-- end of navbar dropdown -->
+          
+        </header>
+    </div> 
+<!-- w3schools vert navbar -->
+    <div id="mainPicture">
+
+    </div>
+    <div id="vertTab">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+    <!-- color #e10600 -->
+</body>
+</html>
