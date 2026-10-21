@@ -1,0 +1,46 @@
+/* Add your CSS here to style your halloween page */
+body {
+    background-color: rgba(204, 98, 27, 0.637);
+    margin: 1px auto;
+}
+.bats {
+    border: rgba(21, 231, 35, 0.474);;
+    background-color: rgba(21, 231, 35, 0.474);
+    padding: 10px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(60, 56, 44);
+}
+.c1 {
+    border: 3px solid rgb(60, 56, 44);
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+
+img {
+display: block;
+margin: 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+ul {
+justify-content: center;
+display: flex;
+list-style: none;
+gap: 50px;
+color: rgb(60, 56, 44);
+}
+
+p {
+    text-align: center;
+}
+
